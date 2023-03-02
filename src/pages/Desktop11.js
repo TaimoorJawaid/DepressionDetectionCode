@@ -7,9 +7,9 @@ import {
   Input,
   Icon,
 } from "@mui/material";
-import "./Desktop11.css";
+import "./Desktop1.css";
 
-const Desktop11 = () => {
+const Desktop1 = () => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -42,8 +42,8 @@ const Desktop11 = () => {
 
   return (
     <div className="desktop-11">
-      <div className="dashboard-login-dark-theme1">
-        <img className="vectors-icon1" alt="" src="../vectors1.svg" />
+      <div className="dashboard-login-dark-theme">
+        <img className="vectors-icon" alt="" src="../vectors.svg" />
         <form className="form">
           <div className="section-forgot">
             <a className="forgot-password" id="forgetPassword">
@@ -106,4 +106,4 @@ const Desktop11 = () => {
   );
 };
 
-export default Desktop11;
+export default Desktop1;
