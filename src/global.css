@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-barlow: Barlow;
+  --font-inter: Inter;
+  --font-lexend-deca: "Lexend Deca";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --black-text-primary: #020303;
+  --color-darkslategray: #093545;
+}

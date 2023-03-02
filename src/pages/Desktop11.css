@@ -1,0 +1,152 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.vectors-icon1 {
+  position: absolute;
+  top: 609px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+}
+.forgot-password,
+.remember-me {
+  position: absolute;
+  top: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  text-align: center;
+}
+.forgot-password {
+  left: 165px;
+  color: #20df7f;
+  display: inline-block;
+  width: 130px;
+  text-decoration: none;
+}
+.remember-me {
+  left: 25px;
+  color: var(--color-white);
+}
+.section-forgot,
+.section-forgot-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-forgot {
+  top: 320px;
+  left: 44px;
+  width: 295px;
+  height: 17px;
+}
+.login-btn,
+.rectangle {
+  position: absolute;
+  top: 361px;
+  left: 41px;
+}
+.rectangle {
+  border: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+.password,
+.username {
+  position: absolute;
+  left: 41px;
+}
+.password {
+  top: 252px;
+  width: 300px;
+  height: 45px;
+}
+.username {
+  border: 0;
+  background-color: transparent;
+  top: 175px;
+}
+.find-hope-with {
+  margin: 0;
+  top: 119px;
+  left: 0;
+  font-size: 16px;
+  font-family: var(--font-lexend-deca);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 400px;
+  cursor: auto;
+  opacity: 1;
+}
+.find-hope-with.animate {
+  animation: 1s ease 0s 1 normal forwards pulsate;
+}
+.find-hope-with,
+.form,
+.sign-in {
+  position: absolute;
+}
+.sign-in {
+  margin: 0;
+  top: 0;
+  left: 85px;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: var(--font-lexend-deca);
+  color: var(--color-white);
+  text-align: center;
+}
+.form {
+  top: 119px;
+  left: 709px;
+  width: 400px;
+  height: 406px;
+}
+.psichologo-konsult-1-869x550-r-icon {
+  position: absolute;
+  top: 222px;
+  left: 107px;
+  border-radius: 149.5px;
+  width: 448px;
+  height: 299px;
+  object-fit: cover;
+  opacity: 0.46;
+}
+.dashboard-login-dark-theme1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1271px;
+  height: 720px;
+  overflow: hidden;
+}
+.desktop-11 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+}

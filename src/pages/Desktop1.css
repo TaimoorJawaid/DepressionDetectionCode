@@ -1,0 +1,93 @@
+.frame-child {
+  position: relative;
+  border-radius: 1px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.logo {
+  position: relative;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.star-parent {
+  position: absolute;
+  top: 30px;
+  left: 605px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.navs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1280px;
+  height: 84px;
+  overflow: hidden;
+}
+.dashboard-login-dark-theme-child {
+  position: absolute;
+  top: 141px;
+  left: 83px;
+  border-radius: 33px;
+  width: 542px;
+  height: 632px;
+}
+.hello-user {
+  margin: 0;
+  position: absolute;
+  top: 244px;
+  left: 742px;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.friendly-psychologist-standing-icon {
+  position: absolute;
+  top: calc(50% - 107.5px);
+  left: calc(50% + 84px);
+  width: 625px;
+  height: 357px;
+  object-fit: cover;
+}
+.primary-small-default {
+  position: absolute;
+  top: 741px;
+  left: 650px;
+}
+.dashboard-login-dark-theme {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1280px;
+  height: 881px;
+  overflow: hidden;
+}
+.vectors-icon {
+  position: absolute;
+  top: 848px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 959px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 72px;
+  color: var(--black-text-primary);
+  font-family: var(--font-barlow);
+}
